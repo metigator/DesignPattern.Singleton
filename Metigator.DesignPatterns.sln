@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.NotThreadSafe", "Singleton.NotThreadSafe\Singleton.NotThreadSafe.csproj", "{43B8C10D-1D30-4A5F-A04D-6F0BBAF4819E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Start", "Singleton.Start\Singleton.Start.csproj", "{37C3401A-177E-41BF-B039-524B6F8E374F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.ThreadSafeUsingLock", "Singleton.ThreadSafeUsingLock\Singleton.ThreadSafeUsingLock.csproj", "{C17B4433-9475-44C4-8DF8-510D20F33572}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.ThreadSafeUsingDoubkeCheckedLock", "Singleton.ThreadSafeUsingDoubkeCheckedLock\Singleton.ThreadSafeUsingDoubkeCheckedLock.csproj", "{494FA6E2-ABCB-4C26-B46E-A5325A3349D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.SingletonEagerLoading", "Singleton.SingletonEagerLoading\Singleton.SingletonEagerLoading.csproj", "{F59314C8-7E36-4E89-84EC-709864725263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.SingletonLazyLoading", "Singleton.SingletonLazyLoading\Singleton.SingletonLazyLoading.csproj", "{5A33F666-4F9C-42A7-8FE0-B7F6CBCC7A8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43B8C10D-1D30-4A5F-A04D-6F0BBAF4819E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B8C10D-1D30-4A5F-A04D-6F0BBAF4819E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B8C10D-1D30-4A5F-A04D-6F0BBAF4819E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B8C10D-1D30-4A5F-A04D-6F0BBAF4819E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C3401A-177E-41BF-B039-524B6F8E374F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C3401A-177E-41BF-B039-524B6F8E374F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C3401A-177E-41BF-B039-524B6F8E374F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C3401A-177E-41BF-B039-524B6F8E374F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17B4433-9475-44C4-8DF8-510D20F33572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17B4433-9475-44C4-8DF8-510D20F33572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17B4433-9475-44C4-8DF8-510D20F33572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17B4433-9475-44C4-8DF8-510D20F33572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494FA6E2-ABCB-4C26-B46E-A5325A3349D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494FA6E2-ABCB-4C26-B46E-A5325A3349D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494FA6E2-ABCB-4C26-B46E-A5325A3349D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494FA6E2-ABCB-4C26-B46E-A5325A3349D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59314C8-7E36-4E89-84EC-709864725263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59314C8-7E36-4E89-84EC-709864725263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59314C8-7E36-4E89-84EC-709864725263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59314C8-7E36-4E89-84EC-709864725263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A33F666-4F9C-42A7-8FE0-B7F6CBCC7A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A33F666-4F9C-42A7-8FE0-B7F6CBCC7A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A33F666-4F9C-42A7-8FE0-B7F6CBCC7A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A33F666-4F9C-42A7-8FE0-B7F6CBCC7A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DA2B6A2-458A-467C-8545-65FFA09C0E6E}
+	EndGlobalSection
+EndGlobal
